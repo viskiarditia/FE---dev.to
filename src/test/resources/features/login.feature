@@ -25,6 +25,11 @@ Feature: Login
       And tidak mencentang Remember me?
       Then Klik Log in
 
+  Scenario: TC-F008
+#  When Kosongkan pada field Email
+#  Then Kosongkan pada field password
+#  And tidak mencentang Remember me?
+#  Then Klik button Log in
 
 
 

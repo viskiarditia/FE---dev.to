@@ -44,7 +44,7 @@ public class loginStepDefs {
             }
         }
 
-        // nilai  file konfigurasi
+        // nilai file konfigurasi
         public String getProperty(String key) {
             return properties.getProperty(key);
         }

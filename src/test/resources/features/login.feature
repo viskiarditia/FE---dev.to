@@ -1,7 +1,5 @@
 @Login
 Feature: Login
-    As a user I want to login website sauce demo
-
   Background: membuka halaman dev.to
     Given Halaman DEV Community terbuka di browser
 

@@ -30,14 +30,16 @@ public class Hooks {
 
         ChromeOptions a = new ChromeOptions();
         a.addArguments("--remote-allow-origins=*");
-        a.addArguments("--headless");
+        a.addArguments("--headless=new");
         a.addArguments("--disable-gpu");
         a.addArguments("--incognito");
-        a.addArguments("--no-sandbox");
         a.addArguments("--disable-dev-shm-usage");
         a.addArguments("--window-size=" + windowSize);
         a.addArguments("--disable-extensions");
         a.addArguments("--disable-logging");
+        a.addArguments("--disable-software-rasterizer");
+        a.addArguments("--disable-background-networking");
+        a.addArguments("--disable-translate");
 
         WebDriverManager.chromedriver().setup();
 
